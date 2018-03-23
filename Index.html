@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Javascript Calculator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+      <link rel="stylesheet" href="style.css">
+
+  
+</head>
+
+<body>
+
+  <table class="any">
+    <th> Enter Name: <input type="text" name="firstname" id="first_name" class="name1"></th>
+      <th><button class="sub" onclick="display()">SUBMIT</button></th>
+  </table>  
+  <div class="calculator">
+    <table class="head">
+        <th><span class="clear" onclick="calc('')">C</span></th>
+        <th><input type="text" readonly size="18" id="d" class="screen clear"></th>
+        <!--<div class="screen" id="d"></div>-->
+    </table>
+    
+    <div class="keys">
+        <span onclick="v('7')" value="7">7</span>
+        <span onclick="v('8')" value="8">8</span>
+        <span onclick="v('9')" value="9">9</span>
+        <span class="operator" onclick="v('+')" value="+">+</span>
+        <span onclick="v('4')" value="4">4</span>
+        <span onclick="v('5')" value="5">5</span>
+        <span onclick="v('6')" value="6">6</span>
+        <span class="operator" onclick="v('-')" value="-">-</span>
+        <span onclick="v('1')" value="1">1</span>
+        <span onclick="v('2')" value="2">2</span>
+        <span onclick="v('3')" value="3">3</span>
+        <span class="operator" onclick="v('/')" value="÷">/</span>
+        <span onclick="v('0')" value="0">0</span>
+        <span onclick="v('.')" value=".">.</span>
+        <span class= "evaluate" onclick="e()">=</span>
+        <span class="operator" onclick="v('*')" value="=">*</span>
+    </div>  
+    <script  src="evaluate.js"></script>
+
+</body>
+</html>
