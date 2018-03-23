@@ -43,7 +43,6 @@ html
 }
 .any
 {
-  background-color: #ffe6e6;
   width:345px;
   height:auto;
   overflow:hidden;
@@ -53,7 +52,7 @@ html
 }
 .calculator
 {
-  background-color:#56CBF9;
+  background-color:#60fff7;
   width:345px;
   height:auto;
   overflow:hidden;
